@@ -84,4 +84,29 @@ module.exports = {
     localUrl: '127.0.0.1:27017/eai',
     productionUrl: 'mongo:carmenunt1@unt_incubaunt:27017/?tls=false'
   },
+  facebook: {
+    pixel: '294234647833467',
+    token: 'EAAbyVOZA2fwgBADbf8U7pghvQUmhoXZCANrWpmWWMEdzLau9wjx5RS84vwScYgqmEZCvdcx6W644LAjnlZC3kEFgZBbTw4LNSnPMGwsFqB8Fdlo4edujZBPZCNnS0fAaodVbbZActmIwMqR45lYddZBaNqjpqeBrKEIB6IGB6BbsXaeOHyyWbrJKE'
+  },
+  zadarma: {
+    url: 'https://api.zadarma.com',
+    userkey: '1b20de7a095b90fc7785',
+    secretkey: 'e393dc202d15cf1bcfd3'
+  },
+  paychash: {
+    url: 'https://api-pais-emisor.paycashglobal.com/v1',
+    keys: [{country: 'colombia', key: '2910c98bf25311ecb74402f5311cbc9f'}, {country: 'mexico', key: '93f3de57fbea11ec8e5402f0a6827489'}],
+    id: '128'
+  },
+  callbell: {
+    url: 'https://api.callbell.eu/v1/messages/send',
+    token: 'JtyxyBD37fp9xWJ4zVrSfwsQQHc2nPMS.46a6db72eddcc089d587c059ac82c936d2753b56feaba3891996c5ab3d37004f'
+  },
+  google: {
+    id: '97121591050-dae0qg3mo4d3v9n4v16qemqm5p0gdj6j.apps.googleusercontent.com',
+    secret: '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',
+    url: 'https://developers.google.com/oauthplayground',
+    token: '1//04sWwOoHiDb2fCgYIARAAGAQSNwF-L9Irr8_Eh_TpXoQnM9j84imF1OR_uDlk4f0HltB7Ltlg-bXFl9Acgter4frSOUwAXG9biO4',
+    token_access: 'ya29.a0Ael9sCPckehDoHo-Vz1v_PqqEr48VmSmUmPvxbmDEi5Nh8_nVB3RZCRwWq4kTsVVxWqOyHuUjfA7Ykzv0rrzcfAtXSIgfdNtXfOHNajbZBOlieQsvyIB_6UALOdH_BbmqiCiytIephR1Gp2QLwWTcWHMaU-qaCgYKASESARISFQF4udJhDmY96jNVfFVeGhFsX7D8Dg0163'
+  }
 }
