@@ -78,5 +78,10 @@ module.exports = {
     tokens: [
       'wCBFTAPU2uv0U1pjreEsu63G8BpuOx8EXm5gqVS3wgUecZ5i6BMjxs3rULpt'
     ]
-  }
+  },
+  mongo: {
+    env: process.env.NODE_ENV || 'development',
+    localUrl: '127.0.0.1:27017/eai',
+    productionUrl: 'mongo:carmenunt1@unt_incubaunt:27017/?tls=false'
+  },
 }
