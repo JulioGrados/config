@@ -11,7 +11,7 @@ module.exports = {
   server: {
     port: process.env.PORT || 8001,
     env: process.env.NODE_ENV || 'development',
-    localUrl: 'https://api.eai.edu.pe',
+    localUrl: 'http://localhost:8001',
     productionUrl: 'https://api.eai.edu.pe'
   },
   auth: {
